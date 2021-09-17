@@ -1,0 +1,91 @@
+body {
+     border: 2px solid rgb(17, 14, 15);
+    paddin:15px;
+    margin: 10px;
+    background-color: rgb(218, 218, 224);
+}
+.mtit {
+    border-radius: 5px;
+    border: 2px solid blue;
+    margin:5px;
+    padding:10px;
+background-color: lightpink;
+box-shadow:3px 5px 7px rgb(255, 0, 179);
+
+}
+h1 {
+text-align: center;
+font-size: 1.5em;
+}
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
+    }
+    .mcard {
+        border: 2px solid rgb(42, 134, 57);
+        margin:25px;
+        margin-left: 50px;
+        margin-right: 50px;
+        padding:2px;
+    background-color: wheat;
+    box-shadow:10px 14px 10px rgb(212, 191, 72);
+
+    }
+    a {
+        text-decoration: none;
+        color: black;
+}
+.date {
+    border-radius: 3px;
+    border: 1px solid black;
+    padding:5px;
+    text-align: center;
+    width: 30%;
+    float: left;
+    margin-left: 15px;
+    background-color: white;
+}
+.time {
+    border-radius: 3px;
+    border: 1px solid black;
+    padding:5px;
+    text-align: center;
+    width: 30%;
+    float: right;
+    margin-right: 15px;
+    background-color: white;
+
+}
+#dt {
+   
+}
+.que {
+    font-weight: bold;
+    color: red;
+    margin-left: 20px;
+    padding-top: 10px;
+    
+}
+#ans {
+    font-weight: bold;
+    color: green;
+    margin-right:10px ;
+    
+}
+.ans-box {
+    border: 2px solid green;
+    margin-top: 1em;
+    padding: 10px;
+    margin-left: 10px;
+}
+.dis {
+    
+    border: 1px solid black;
+    text-align: center;
+    padding:10px;
+    margin: 15px;
+    background-color: darkorchid;
+    color: white;
+    border-radius: 3px;
+}
