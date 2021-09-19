@@ -89,3 +89,10 @@ h2 {
     color: white;
     border-radius: 3px;
 }
+.notice {
+    margin: 7px;
+    padding: 10px;
+    background-color: green;
+    color:white;
+     font-weight: bold;
+}
