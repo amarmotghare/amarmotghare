@@ -10,7 +10,7 @@ function playPause(){
 	}else{
 		count = 0;
 		audio.pause();
-		playPauseBTN.innerHTML = "►";
+		playPauseBTN.innerHTML = "▶️";
 	}
 
 }
