@@ -1,5 +1,5 @@
 body {
-     border: 2px solid rgb(17, 14, 15);
+     border: 2px solid rgb(218, 218, 224);
     paddin:15px;
     margin: 10px;
     background-color: rgb(218, 218, 224);
@@ -22,15 +22,24 @@ h2 {
     font-weight: bold;
     font-size: 1em;
     padding-left: 25px;
+   
     }
+    h2.right {
+        width: 40;
+        float: right;
+
+
+    }
+
     .mcard {
-        border: 2px solid rgb(42, 134, 57);
-        margin:25px;
-        margin-left: 50px;
-        margin-right: 50px;
-        padding:2px;
-    background-color: wheat;
-    box-shadow:10px 14px 10px rgb(212, 191, 72);
+        border: 2px solid rgb(126, 129, 126);
+        margin:15px;
+        margin-left: 25px;
+        margin-right: 25px;
+        padding:px;
+        border-radius: 7px;
+    background-color: white;
+    box-shadow:7px 7px 7px gray;
 
     }
     a {
@@ -79,6 +88,8 @@ h2 {
     margin-top: 1em;
     padding: 10px;
     margin-left: 10px;
+    margin-right: 10px;
+
 }
 .dis {
     
@@ -106,10 +117,34 @@ h2 {
     height: 24px;
     width: 24px;
     float: right;
-    padding-right: 20px;
-    
+    margin-right: 15px;
+        
 }
 a:hover {
     
     color:rgb(221, 11, 11);
 }
+
+#playPauseBTN {
+
+    float: right;
+    color: rgb(19, 178, 206);
+    margin-right: 10px;
+    font-size: 20px;
+}
+.img-s {
+float: right;
+}
+.mplay {
+    margin: 5px;
+    padding: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color:white;
+    border: 2px solid gray;
+    box-shadow:5px 5px 5px  gray ;
+}
+.marplay {
+    width: 80%;
+}
+
