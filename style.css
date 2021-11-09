@@ -1,150 +1,126 @@
-body {
-     border: 2px solid rgb(218, 218, 224);
-    paddin:15px;
-    margin: 10px;
-    background-color: rgb(218, 218, 224);
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
 }
-.mtit {
-    border-radius: 5px;
-    border: 2px solid blue;
-    margin:5px;
-    padding:10px;
-background-color: lightpink;
-box-shadow:3px 5px 7px rgb(255, 0, 179);
+html {
+    font-size: 16px;
+}
 
-}
-h1 {
-text-align: center;
-font-size: 1.5em;
-}
-h2 {
-    text-align: left;
-    font-weight: bold;
-    font-size: 1em;
-    padding-left: 25px;
-   
-    }
-    h2.right {
-        width: 40;
-        float: right;
-
-
-    }
-
-    .mcard {
-        border: 2px solid rgb(126, 129, 126);
-        margin:15px;
-        margin-left: 25px;
-        margin-right: 25px;
-        padding:px;
-        border-radius: 7px;
-    background-color: white;
-    box-shadow:7px 7px 7px gray;
-
-    }
-    a {
-        text-decoration: none;
-        color: black;
-}
-.date {
-    border-radius: 3px;
-    border: 1px solid black;
-    padding:5px;
-    text-align: center;
-    width: 30%;
-    float: left;
-    margin-left: 15px;
-    background-color: white;
-}
-.time {
-    border-radius: 3px;
-    border: 1px solid black;
-    padding:5px;
-    text-align: center;
-    width: 30%;
-    float: right;
-    margin-right: 15px;
-    background-color: white;
-
-}
-#dt {
-   
-}
-.que {
-    font-weight: bold;
-    color: red;
-    margin-left: 20px;
-    padding-top: 10px;
-    
-}
-#ans {
-    font-weight: bold;
-    color: green;
-    margin-right:10px ;
-    
-}
-.ans-box {
-    border: 2px solid green;
-    margin-top: 1em;
-    padding: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-
-}
-.dis {
-    
-    border: 1px solid black;
-    text-align: center;
-    padding:10px;
-    margin: 15px;
-    background-color: darkorchid;
-    color: white;
-    border-radius: 3px;
-}
-.notice {
+body { 
+    padding: 7px;
     margin: 7px;
-    padding: 10px;
+}
+
+.title {
+margin-bottom: 2rem;
+font-size: 2rem;
+
+}
+
+hr { 
+margin: 0.3%;
+
+}
+
+details {
+    padding: 0 1rem;
+}
+
+details > summary {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    cursor: pointer;
+    direction: none;
+
+}
+
+
+
+details > summary ::after {
+    content: url(./images/arrow.svg);
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-flex;
+    float: right;
+    transition: transform 0.3s ease;
+
+}
+
+details > summary ::-webkit-details-marker {
+    display: none;
+}
+
+details[open] > summary ::after {
+    transform: rotate(90deg);
+}
+
+.details-containt{
+    padding-top: 6px;
+}
+
+#notes-btn{
+    background-color: green;
+            color:white;
+            padding:5px;
+            font-size:16px;
+            border:3px solid green;
+            width: 40%;
+            border-radius:5px;
+            margin-bottom: 10px;
+            
+}
+
+#quiz-btn{
     background-color: green;
     color:white;
-     font-weight: bold;
-}
-.icon {
-   
-    
-
-}
-.img-i {
-    height: 24px;
-    width: 24px;
+    padding:5px;
+    font-size:16px;
+    border:3px solid green;
+    width: 40%;
+    border-radius:5px;
     float: right;
-    margin-right: 15px;
-        
 }
-a:hover {
-    
-    color:rgb(221, 11, 11);
+#drop-bar{
+    width: 100%;
 }
 
-#playPauseBTN {
+#que{
+width: 100%;
 
-    float: right;
-    color: rgb(19, 178, 206);
+}
+
+#ans{
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.hed{
+    width: 100%;
+    height: 5%;
+    background-color: white;
+   margin-right: 10px;
+    padding: 10px;
+    border: solid rgb(235, 163, 55) 2px;
+}
+
+hed-img{
+    width: 15%;
+    height: 5%;
+    float: left;
+    padding-right: 10px;
     margin-right: 10px;
-    font-size: 20px;
+    text-align: center;
 }
-.img-s {
-float: right;
-}
-.mplay {
+h1{
+    width: 60%;
+    float: right;
     margin: 5px;
-    padding: 5px;
-    margin-left: 10%;
-    margin-right: 10%;
-    background-color:white;
-    border: 2px solid gray;
-    box-shadow:5px 5px 5px  gray ;
+    padding-right: 10px;
+    font-size: 1rem;
+    text-align: center;
+    
 }
-.marplay {
-    width: 80%;
-}
-
