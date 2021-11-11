@@ -1,0 +1,136 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html {
+    font-size: 16px;
+}
+
+body { 
+    padding: 7px;
+    margin: 7px;
+}
+
+.title {
+margin-bottom: 2rem;
+font-size: 2rem;
+
+}
+
+hr { 
+margin: 0.3%;
+
+}
+
+details {
+    padding: 0 0.3rem;
+}
+
+details > summary {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    cursor: pointer;
+    direction: none;
+
+}
+
+
+
+details > summary ::after {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-flex;
+    float: right;
+    transition: transform 0.3s ease;
+
+}
+
+details > summary ::-webkit-details-marker {
+    display: none;
+}
+
+details[open] > summary ::after {
+    transform: rotate(90deg);
+}
+
+.details-containt{
+    padding-top: 6px;
+}
+
+#notes-btn{
+    background-color: green;
+            color:white;
+            padding:5px;
+            font-size:16px;
+            border:3px solid green;
+            width: 40%;
+            border-radius:5px;
+            margin-bottom: 10px;
+            
+}
+
+#quiz-btn{
+    background-color: green;
+    color:white;
+    padding:5px;
+    font-size:16px;
+    border:3px solid green;
+    width: 40%;
+    border-radius:5px;
+    float: right;
+}
+#drop-bar{
+    width: 100%;
+}
+
+#que{
+width: 100%;
+
+}
+
+#ans{
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: green;
+    font-weight: bold;
+}
+
+.hed{
+    width: 100%;
+    height: 5%;
+    background-color: white;
+   margin-right: 10px;
+    padding: 10px;
+    border: solid rgb(235, 163, 55) 2px;
+}
+
+hed-img{
+    width: 15%;
+    height: 5%;
+    float: left;
+    padding-right: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+h1{
+    width: 60%;
+    float: right;
+    margin: 5px;
+    padding-right: 10px;
+    font-size: 1rem;
+    text-align: center;
+    
+}
+
+.dis {
+    margin: 30px;
+    padding: 10px;
+    color: rgb(26, 51, 161);
+}
+
+
+    
